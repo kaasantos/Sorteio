@@ -4,9 +4,9 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
-  { path: '', redirectTo: 'tela-inicial', pathMatch: 'full' },
-  { path: 'tela-inicial', component: InitialComponent },
-  { path: 'tela-sorteio', component: SorteioComponent }
+  { path: '', redirectTo: 'inicio', pathMatch: 'full' },
+  { path: 'inicio', component: InitialComponent },
+  { path: 'sorteio', component: SorteioComponent }
 ];
 
 @NgModule({
