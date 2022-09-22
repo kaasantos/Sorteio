@@ -1,9 +1,23 @@
 .card{
   background-color: rgba(212, 243, 233, 0.439);
-  border: solid white 1px;
-  height: 120px;
+  border: solid white 2px;
+  height: 320px;
+  margin-left: 5px;
+
 }
 
 .conteiner-fluid{
-  margin-top: 230px;
+  margin-top: 50px;
+  margin-left: 350px;
+  margin-right: 350px;
+}
+
+.font{
+  font-size: 150px;
+}
+
+#botao{
+  margin-top: 20px;
+  height: 60px;
+  width: 150px;
 }

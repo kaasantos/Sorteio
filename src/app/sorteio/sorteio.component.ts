@@ -8,9 +8,15 @@ import { Number } from '../models/sorteio';
 })
 
 export class SorteioComponent implements OnInit {
-  sorteados: Number = new Number();
 
-  constructor(){}
+  sorteados: Number = new Number();
+  numbers = [
+    {a:null, b:null, c:null, d:null, e:null, f:null, g:null, h:null, i:null, j:null}
+];
+
+
+  constructor(){
+  }
 
   ngOnInit(): void {
   }
