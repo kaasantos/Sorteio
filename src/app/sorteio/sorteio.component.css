@@ -1,0 +1,9 @@
+.card{
+  background-color: rgba(212, 243, 233, 0.439);
+  border: solid white 1px;
+  height: 120px;
+}
+
+.conteiner-fluid{
+  margin-top: 230px;
+}
