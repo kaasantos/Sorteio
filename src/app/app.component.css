@@ -5,15 +5,17 @@
 .footer {
   height: 100%;
   text-align: center;
-  margin-top: 255px;
+  margin-top: 180px;
   align-items: center;
 }
 
 #main {
   background-image: url("../assets/img/antoine-barres.jpg");
-  background-size: 100%;
-  background-clip:
-
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  padding: 30px;
 }
 
 img{
