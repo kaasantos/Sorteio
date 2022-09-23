@@ -2,4 +2,16 @@
   margin-top: 200px;
   height: 60px;
   width: 150px;
+  margin-bottom: 202px;
 }
+
+img{
+  width: 250px;
+  height: 150px;
+  border: solid grey 1px;
+  border-radius: 15%;
+  margin: 5px;
+  justify-content:center;
+  align-items:center;
+}
+

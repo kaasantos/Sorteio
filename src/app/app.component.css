@@ -10,22 +10,11 @@
 }
 
 #main {
-  background-image: url("../assets/img/antoine-barres.jpg");
+  background-image: url("../assets/img/background.jpeg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
   width: 100%;
   padding: 30px;
-}
-
-img{
-  width: 250px;
-  height: 150px;
-  border: solid grey 1px;
-  border-radius: 15%;
-  margin: 5px;
-}
-
-.image2{
-  width: 150px;
+  width: 100%;
 }
