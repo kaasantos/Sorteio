@@ -1,72 +1,67 @@
-<div class="conteiner-fluid">
-
-  <div class="row">
-    <div class="col">
-      <div class="card-group">
-        <div class="card">
-          <br><br><br>
-          <h1 class="font" *ngFor="let i of numbers"> X </h1>
-        </div>
-        <div class="card">
-          <br><br><br>
-          <h1 class="font">X</h1>
-        </div>
-        <div class="card">
-          <br><br><br>
-          <h1 class="font">X</h1>
-        </div>
-        <div class="card">
-          <br><br><br>
-          <h1 class="font">X</h1>
-        </div>
-        <div class="card">
-          <br><br><br>
-          <h1 class="font">X</h1>
-        </div>
-        <div class="card">
-          <br><br><br>
-          <h1 class="font">X</h1>
-        </div>
+<div class="row">
+  <div class="col">
+    <div class="box">
+      <div class="for" *ngFor="let i of value; delay(1000)">
+        <h1 *ngIf="value[i] !== 0;" hidden><strong> {{value[i]}}</strong></h1>
+        <h1 *ngIf="value[i] !== 1" hidden><strong> {{value[i]}}</strong></h1>
+        <h1 *ngIf="value[i] !== 2" hidden><strong> {{value[i]}}</strong></h1>
       </div>
     </div>
-  </div>
-
-  <div class="row">
-    <div class="col">
-      <div class="card card1">
-        <h5><strong> info User info User info User info User info User info User info User info</strong></h5>
-        <h5><strong> info User info User info User info User info User info User info User info</strong></h5>
-      </div>
+    <div class="box">
+      <h1><strong> 5 </strong> </h1>
+    </div>
+    <div class="box">
+      <h1><strong> 0 </strong> </h1>
+    </div>
+    <div class="box">
+      <h1><strong> 0 </strong> </h1>
+    </div>
+    <div class="box">
+      <h1><strong> 0 </strong> </h1>
+    </div>
+    <div class="box">
+      <h1><strong> 0 </strong> </h1>
     </div>
   </div>
+</div>
 
-  <div class="row">
-    <div class="col">
-      <a routerLink="/inicio">
 
-        <button id="botao" type="button" class="btn btn-danger"><strong> Voltar </strong></button>
 
-      </a>
 
+<div class="row">
+  <div class="col">
+    <div class="card card1">
+      <h5><strong> info User info User info User info User info User info User info User info</strong></h5>
+      <h5><strong> info User info User info User info User info User info User info User info</strong></h5>
     </div>
   </div>
+</div>
 
-  <div class="row">
-    <div class="col">
-      <div class="card" style="height: 120px; margin-top: 160px;">
-        <br>
-        <h2>Cupons sorteados:</h2>
-      </div>
+<div class="row">
+  <div class="col">
+    <a routerLink="/inicio">
+
+      <button id="botao" type="button" class="btn btn-danger"><strong> Voltar </strong></button>
+
+    </a>
+
+  </div>
+</div>
+
+<div class="row">
+  <div class="col">
+    <div class="card">
+      <br>
+      <h2>Cupons já sorteados!! </h2>
     </div>
   </div>
+</div>
 
-  <div class="row">
-    <div class="col">
-      <div class="card" style="height: 80px; margin-top: 25px;">
-        <br>
-        <p>User info</p>
-      </div>
+<div class="row">
+  <div class="col">
+    <div class="card" style="min-height: 50px; margin-top: 25px;">
+      <br>
+      <p></p>
     </div>
   </div>
-
 </div>
